@@ -872,11 +872,11 @@ public final class Interfaz extends javax.swing.JFrame {
             lineandshaperenderer.setSeriesShape(1, ShapeUtilities.createDiagonalCross(3F, 3F));
             lineandshaperenderer.setDrawOutlines(true);
             lineandshaperenderer.setUseFillPaint(true);
-            lineandshaperenderer.setSeriesFillPaint(0, Color.white);
+            lineandshaperenderer.setSeriesFillPaint(0, new Color(196, 21, 12));
             lineandshaperenderer.setSeriesFillPaint(1, Color.ORANGE);
             lineandshaperenderer.setSeriesPaint(0, Color.BLUE);
-            lineandshaperenderer.setSeriesPaint(1, Color.GRAY);
-            lineandshaperenderer.setSeriesPaint(2, Color.GREEN);
+            lineandshaperenderer.setSeriesPaint(1, Color.DARK_GRAY);
+            lineandshaperenderer.setSeriesPaint(2, new Color(55, 148, 9));
             lineandshaperenderer.setSeriesPaint(3, Color.RED);
 
             lineandshaperenderer.setItemMargin(0.2);
@@ -976,11 +976,11 @@ public final class Interfaz extends javax.swing.JFrame {
         lineandshaperenderer.setSeriesShape(1, ShapeUtilities.createDiagonalCross(3F, 3F));
         lineandshaperenderer.setDrawOutlines(true);
         lineandshaperenderer.setUseFillPaint(true);
-        lineandshaperenderer.setSeriesFillPaint(0, Color.white);
+        lineandshaperenderer.setSeriesFillPaint(0, new Color(196, 21, 12));
         lineandshaperenderer.setSeriesFillPaint(1, Color.ORANGE);
         lineandshaperenderer.setSeriesPaint(0, Color.BLUE);
-        lineandshaperenderer.setSeriesPaint(1, Color.GRAY);
-        lineandshaperenderer.setSeriesPaint(2, Color.GREEN);
+        lineandshaperenderer.setSeriesPaint(1, Color.DARK_GRAY);
+        lineandshaperenderer.setSeriesPaint(2, new Color(55, 148, 9));
         lineandshaperenderer.setSeriesPaint(3, Color.RED);
 
         lineandshaperenderer.setItemMargin(0.2);

@@ -203,7 +203,7 @@ public class EdicionMedicones extends javax.swing.JDialog {
 
     private void poblarComboBox() {
         DefaultComboBoxModel modeloCombo = new DefaultComboBoxModel();
-        ResultSet datos = baseDeDatos.ejecutarQuery("Select * from Mediciones where idPersona = " + String.valueOf(idPersona));
+        ResultSet datos = baseDeDatos.ejecutarQuery("Select * from Mediciones where idPersona = " + String.valueOf(idPersona) + " order by Fecha desc");
         indices.clear();
 
 
